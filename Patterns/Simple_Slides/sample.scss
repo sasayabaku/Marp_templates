@@ -1,0 +1,49 @@
+/* @theme sample */
+
+@import 'default';
+
+section {
+    width: 1920px;
+    height: 1080px;
+    font-size: 28px;
+    padding: 3rem;
+    justify-content: start;
+}
+
+section.slides h1 {
+    color:gray;
+    position: relative;
+    padding-left: 40px;
+}
+
+section.slides h1::before {
+    content: "";
+    position: absolute;
+    width: 20px;
+    height: 2.5rem;
+    display: inline;
+    left: 0;
+    top: 0;
+    background-color: #059475;
+}
+
+h1 { 
+    font-size: 2rem;
+}
+
+h2 {
+    padding-left: 2rem;
+    color: #059475;
+} 
+
+h3, h4, h5 {
+    padding-left: 2rem;
+}
+
+p {
+    padding-left: 3rem;
+}
+
+ol, ul {
+    margin-left: 3rem;
+}
